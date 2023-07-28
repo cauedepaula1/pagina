@@ -44,11 +44,19 @@ body{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 40px;
 }
-.apresentacao__conteudo__links__link{
+.apresentacao__conteudo__link{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
     border: 2px solid #14213d;
     border-radius: 5px;
-    width: 378px;
+    width: 300px;
+    font-size: 24px;
     text-align: center;
-    
 }
 
+.apresentacao__conteudo__links__link:hover{
+   background-color: #14213d;
+   border-radius: 5px;
+
+}
